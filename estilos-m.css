@@ -1,0 +1,106 @@
+/*--------------Mobile desing---------------*/
+/* width <= 973*/
+
+
+@media only screen and (max-width: 973px) {
+    .content{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #menu .content .links ul{
+        display: none;
+    }
+
+    #menu .content .links ul{
+        width: min-content;
+    }
+   
+    #menu .content{
+        padding: 0;
+    }
+
+    header .encabezado{
+        flex-direction: column;
+    }
+    
+    header .encabezado .left-content{
+        width: 100%;
+        padding: 0;
+    }
+    
+    header .encabezado .rigth-content{
+        width: 100%;
+        padding:  0;
+    }
+
+    #initiation .content h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    #programs .content h2{
+        margin-bottom: 30px;
+    }
+
+
+    #programs .content .cards{
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        position: inherit;
+    }
+
+    #programs .content .cards .card{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 50px;
+        box-shadow: none;
+        padding-top: 40px;
+    }   
+
+    .card-roja{
+        top: 0px;
+    }
+
+    #testimonials .content h2{
+        font-size: 36px;
+    }
+    #testimonials .content .testimonios{
+        flex-direction: column;
+    }
+
+    #testimonials .content .testimonios .card-testimonio{
+        width: 100%;
+    }
+
+    #footer{
+        flex-direction: column;
+    }
+
+    #footer .left-content{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #footer .rigth-content{
+        width: 100%;
+        flex-direction: row;
+    }
+
+    #footer .rigth-content .card{
+        box-shadow: none;
+    }
+
+    
+}
+
+@media only screen and (max-width: 468px) {
+    #footer .rigth-content{
+        width: 100%;
+        flex-direction: column;
+    }
+    #footer .left-content h2{
+        font-size: 26px;
+    }
+}

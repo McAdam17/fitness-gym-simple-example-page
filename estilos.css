@@ -1,0 +1,431 @@
+/* Generales */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;;
+}
+
+.content{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.boton{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid #fff;
+    letter-spacing: 5px;
+}
+
+.boton:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.boton-mark{
+    color: #000;
+    border: none;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.65);
+}
+
+a{
+    text-decoration: none;
+}
+
+.boton-mark:hover{
+    border-bottom: 2px solid red;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+/* Menu */
+#menu{
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+#menu .content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu .content .titulo h2{
+    font-size: 28px;
+}
+
+#menu .content .links ul{
+    list-style: none;
+    display: flex;
+}
+
+
+#menu .content .links ul li{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+#menu .content .links ul li a{
+    color: #000;
+}
+
+#menu .content .links ul li a:hover{
+    border-bottom: 1px solid red;
+}
+
+/* Encabezado */
+
+header .encabezado{
+    display: flex;
+    background-image: url(./imagenes/intro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header .encabezado .left-content{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 65px 75px;
+    letter-spacing: 19px;
+}
+
+header .encabezado .left-content p{
+    font-size: 14px;
+    letter-spacing: 18px;
+}
+
+header .encabezado .left-content h1{
+    font-size: 66px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+header .encabezado .rigth-content{
+    width: 40%;
+    color: #fff;
+    background-color: red;
+    padding: 1px 50px 40px 50px;
+    height: min-content;
+}
+
+
+header .encabezado .rigth-content h2{
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin: 30px 0px;
+}
+
+/* initiation */
+#initiation{
+    margin-top: 70px;
+}
+#initiation .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#initiation .content .cero{
+    color:red;
+    font-size: 80px;
+}
+
+#initiation .content .ini{
+    font-size: 15px;
+    letter-spacing: 18px;
+    font-size: 15px;
+    color: #fff;
+}
+
+#initiation .content h2{
+    font-size: 63px;
+    font-weight: 200;
+    letter-spacing: 16px;
+    margin:0;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+#initiation .content .text{
+    width: 80%;
+    margin:auto;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* Programs*/
+
+
+#programs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#programs .content h2{
+    letter-spacing: 5px;
+    font-size: 20px;
+    border-bottom: 2px solid red;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    padding: 0px 10px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+#programs .content .cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    position: relative;
+}
+
+#programs .content .cards .card{
+    width: 33.3%;
+    padding: 45px 47px;
+}
+
+#programs .content .cards .card h3{
+    letter-spacing: 5px;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+#programs .content .cards .card p{
+    font-family: 'Opem Sans';
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card-azul{
+    background-color: #2a2e3f;
+    color: #fff;
+}
+
+.card-roja{
+    background-color: red;
+    color: #fff;
+    position: relative;
+    top: 50px;
+}
+
+.card-blanca{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 15px 13px 26px 3px rgba(0,0,0,0.75);
+}
+
+
+/* Join now */
+#join-now{
+    margin-top: 100px;
+}
+
+#join-now .content{
+    display: flex;
+    flex-direction: column;
+}
+
+#join-now .content .imagenes{
+    display: flex;
+    position: relative;
+}
+
+#join-now .content .imagenes img{
+    display: flex;
+    width: 33.3%;
+    height: min-content;
+}
+
+#join-now .content .imagenes img:nth-child(2){
+    position: relative;
+    top: -30px
+}
+#join-now .content .imagenes img:nth-child(3){
+    position: relative;
+    top: 10px
+}
+
+#join-now .content .boton{
+    text-align: center;
+    background-color: red;
+    width: max-content;
+    margin: auto;
+}
+
+#join-now .content .boton:hover{
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+/* Testimonials*/
+
+#testimonials{
+    margin-top: 50px;
+}
+#testimonials .content{
+    color: #fff;
+}
+
+#testimonials .content h2{
+    text-align: center;
+    font-size: 63px;
+    letter-spacing: 16px;
+}
+
+#testimonials .content .boton-mark{
+    color: #fff;
+    font-size: 22px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: max-content;
+}
+
+#testimonials .content .testimonios{
+    display: flex;
+    justify-content: space-around;
+}
+
+#testimonials .content .testimonios .card-testimonio{
+    width: 40%;
+    display: flex;
+    margin-top: 40px;
+}
+
+#testimonials .content .testimonios .card-testimonio img{
+    height: 85px;
+    width: 85px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+#testimonials .content .testimonios .card-testimonio .texto .titulo{
+    margin-top: 5px;
+    float: right;
+    font-weight: bold;
+}
+
+/* Footer */
+#footer{
+    background-image: url(./imagenes/contacto.jpg);
+    color: #fff;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+#footer .left-content{
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 70px;
+}
+
+#footer .left-content span{
+    font-size: 14px;
+    letter-spacing: 18px;
+}
+
+#footer .left-content h2{
+    letter-spacing: 19px;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 66px;
+}
+
+#footer .left-content form{
+    display: flex;
+    flex-direction: column;
+}
+#footer .left-content form input{
+    margin: 20px 0px;
+    background: none;
+    color: #fff;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-left: 2px;
+}
+
+#footer .left-content .boton{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    width: max-content;
+    align-self: end;
+    padding: 20px 30px;
+}
+
+#footer .left-content .boton:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#footer .rigth-content{
+    width: 45%;
+    background-color: red;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer .rigth-content .card{
+    width: 80%;
+    box-shadow: 15px 13px 26px 3px rgba(0,0,0,0.75);
+    height: 30%;
+    padding: 30px;
+}
+
+#footer .rigth-content .card h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+#footer .rigth-content .roja p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    
+}
+
+#footer .rigth-content .blanca{
+    background-color: #fff;
+    color: #000;
+}
+
+#footer .rigth-content .blanca h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+#footer .rigth-content .blanca .boton{
+    color: #000;
+    border: 1px solid red;
+    width: max-content;
+}
+
+#footer .rigth-content .blanca .boton:hover{
+    background-color: rgba(255, 0, 0, 0.1);
+}
